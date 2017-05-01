@@ -28,7 +28,7 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+///////////////成熟度成都四川山东
         textView = (TextView) findViewById(R.id.text_content);
 
         EventBus.getInstance().register(this);
